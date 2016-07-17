@@ -43,6 +43,9 @@ endif
 WITH_ART_JIT := true
 ART_JIT := true
 
+# Enable optimizing
+ART_USE_OPTIMIZING_COMPILER := true
+
 #
 # Used to change the default GC. Valid values are CMS, SS, GSS. The default is CMS.
 #
